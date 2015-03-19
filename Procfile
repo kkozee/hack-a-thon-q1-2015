@@ -1,1 +1,1 @@
-web: node /tab/server.js
+web: node tab/server.js
