@@ -11,7 +11,7 @@ angular.module('starter.controllers', [])
 
     }, function(err) {
 
-      // Ruh-roh, something bad happened
+      alert("An error occured!");
 
     }, cameraOptions);
   }
