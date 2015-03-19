@@ -31,7 +31,10 @@ angular.module('starter.controllers', [])
 })
 
 .controller('AccountCtrl', function($scope) {
-  $scope.settings = {
-    enableFriends: true
-  };
-});
+
+    $scope.email = window.localStorage['email'];
+
+    $scope.saveEmail = function(email) {
+        window.localStorage['email'] = email;
+    };
+})
