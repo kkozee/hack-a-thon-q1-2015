@@ -50,9 +50,6 @@
         "org.apache.cordova.camera": {
             "PACKAGE_NAME": "com.ionicframework.resumescanner117068"
         },
-        "org.apache.cordova.console": {
-            "PACKAGE_NAME": "com.ionicframework.resumescanner117068"
-        },
         "org.apache.cordova.device": {
             "PACKAGE_NAME": "com.ionicframework.resumescanner117068"
         },
